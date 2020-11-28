@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var person={
+    Name:"Sujan Kumer Sarker",
+    Job:"Company"
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -9,14 +13,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         <h1>heading:{person.Name + " Job: " + person.Job}</h1>
+         <p>{(50.2*60)/(60*8*.65)}</p>
+        <p></p>
       </header>
     </div>
   );
